@@ -136,7 +136,7 @@ footer{
 .cal{
     border-radius: 10px;
     height: 45px;
-    width: auto;
+    width: 45px;
     margin: auto;
     background-color: #6276e5;
     color: white;
@@ -145,13 +145,13 @@ footer{
 .rset{
     border-radius: 10px;
     height: 45px;
-    width: auto;
+    width: 120px;
     border-color: 3px solid black;
     background-color: #ed1212
 }
 .en{border-radius: 10px;
     height: 45px;
-    width: auto;
+    width: 90px;
     border-color: 3px solid black;
     background-color: #1ca537;
 

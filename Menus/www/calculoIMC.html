@@ -9,7 +9,7 @@
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
    
-
+<link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <title>Calculo IMC</title>
 </head>
@@ -22,7 +22,7 @@
         <label>Peso:</label><input type="text" name="peso"></input><br>
         <script type="text/javascript" src="js/calcula.js"></script>
         <br>
-        <input type="button"value="Calcular IMC" onclick="calcular()" />
+        <input type="button" class="rset"value="Calcular IMC" onclick="calcular()" />
         </form>
         
         <div id="resultado"></div>
